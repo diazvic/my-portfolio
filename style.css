@@ -1,0 +1,23 @@
+html,
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.barra-nav {
+	background-color: #32502e;
+	height: 80px;
+	position: fixed;
+	width: 100%;
+}
+.nav-contenedor {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+}
+.link-nav {
+	text-decoration: none;
+	color: #f3efcc;
+	padding: 20px;
+	margin: 20px;
+}
