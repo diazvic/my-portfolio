@@ -3,6 +3,14 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .barra-nav {
 	background-color: #32502e;
@@ -20,4 +28,20 @@ body {
 	color: #f3efcc;
 	padding: 20px;
 	margin: 20px;
+}
+.seccion-uno {
+	height: 100%;
+}
+.parrafo-seccion-uno {
+	font-size: 40px;
+}
+.titulo {
+	font-size: 60px;
+	color: #32502e;
+}
+.descripcion-seccion-uno {
+	font-size: 20px;
+}
+.img-principal {
+	width: 600px;
 }
