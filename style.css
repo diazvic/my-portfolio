@@ -12,6 +12,10 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
 .barra-nav {
 	background-color: #32502e;
 	height: 80px;
@@ -29,7 +33,8 @@ body {
 	padding: 20px;
 	margin: 20px;
 }
-.seccion-uno {
+.seccion-uno,
+.seccion-dos {
 	height: 100%;
 }
 .parrafo-seccion-uno {
@@ -44,4 +49,15 @@ body {
 }
 .img-principal {
 	width: 600px;
+}
+/* seccion dos */
+.mis-conocimientos {
+	background-color: green;
+}
+.titulo-mis-conocimientos {
+	font-size: 40px;
+	font-weight: bold;
+}
+.parrafo-mis-conocimientos {
+	width: 400px;
 }
