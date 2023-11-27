@@ -51,9 +51,6 @@ body {
 	width: 600px;
 }
 /* seccion dos */
-.mis-conocimientos {
-	background-color: green;
-}
 .titulo-mis-conocimientos {
 	font-size: 40px;
 	font-weight: bold;
@@ -62,14 +59,31 @@ body {
 	width: 400px;
 }
 /* tarjetas mis conocimientos */
+.container-conocimientos {
+	background-color: #f6f7fb;
+}
 .columnas {
 	flex-wrap: wrap;
 	margin-top: 40px;
 	width: 1000px;
 }
 .tarjetas-mis-conocimientos {
-	width: 300px;
-	height: 300px;
-	background-color: red;
+	width: 250px;
+	height: 250px;
+	border: 1px solid #dcdfe4;
+	border-radius: 10px;
+	background-color: #ffffff;
 	margin: 10px;
+}
+.icono-mis-conocimientos {
+	font-size: 100px;
+}
+.skill {
+	margin-top: 15px;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.mayuscula {
+	text-transform: uppercase;
 }
