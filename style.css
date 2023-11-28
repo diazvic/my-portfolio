@@ -87,3 +87,7 @@ body {
 .mayuscula {
 	text-transform: uppercase;
 }
+.tarjetas-mis-conocimientos:hover {
+	border: 1px solid #406343;
+	transition: 0.1s;
+}
