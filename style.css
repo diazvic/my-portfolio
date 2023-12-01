@@ -58,6 +58,7 @@ body {
 .titulo-mis-conocimientos {
 	font-size: 40px;
 	font-weight: bold;
+	text-transform: capitalize;
 }
 .parrafo-mis-conocimientos {
 	width: 400px;
@@ -113,7 +114,6 @@ body {
 	font-size: 30px;
 }
 /* seccion cuatro mis proyectos */
-
 .caja-general {
 	flex-wrap: wrap;
 	width: 1030px;
@@ -126,4 +126,18 @@ body {
 }
 .caja-test:last-child {
 	margin-right: auto;
+}
+.titulo-mis-proyectos {
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.parrafo-mis-proyectos {
+	max-width: 500px;
+	text-align: center;
+}
+.imagen-proyectos {
+	width: 100%;
+}
+.parrafo-proyectos {
+	text-align: center;
 }
