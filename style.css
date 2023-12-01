@@ -16,6 +16,9 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.color-blanco {
+	color: #ffffff;
+}
 .barra-nav {
 	background-color: #32502e;
 	height: 80px;
@@ -34,7 +37,8 @@ body {
 	margin: 20px;
 }
 .seccion-uno,
-.seccion-dos {
+.seccion-dos,
+.seccion-tres {
 	height: 100%;
 }
 .parrafo-seccion-uno {
@@ -90,4 +94,21 @@ body {
 .tarjetas-mis-conocimientos:hover {
 	border: 1px solid #406343;
 	transition: 0.1s;
+}
+/* seccion tres cita */
+.seccion-tres {
+	padding: 40px;
+	background-color: #406343;
+}
+.icono-cita {
+	font-size: 80px;
+}
+.parrafo-cita {
+	padding: 40px;
+	margin: 20px;
+	max-width: 800px;
+	font-size: 25px;
+}
+.titulo-cita {
+	font-size: 30px;
 }
