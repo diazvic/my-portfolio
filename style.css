@@ -58,6 +58,7 @@ body {
 .titulo-mis-conocimientos {
 	font-size: 40px;
 	font-weight: bold;
+	text-transform: capitalize;
 }
 .parrafo-mis-conocimientos {
 	width: 400px;
@@ -111,4 +112,34 @@ body {
 }
 .titulo-cita {
 	font-size: 30px;
+}
+/* seccion cuatro mis proyectos */
+.mis-proyectos-general {
+	flex-wrap: wrap;
+	width: 1030px;
+}
+.mis-proyectos {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
+	margin: 20px;
+}
+.mis-proyectos:last-child {
+	margin-right: auto;
+}
+.titulo-mis-proyectos {
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.parrafo-mis-proyectos {
+	max-width: 500px;
+	text-align: center;
+}
+.imagen-proyectos {
+	width: 100%;
+}
+.parrafo-proyectos {
+	text-align: center;
+	text-transform: capitalize;
 }
