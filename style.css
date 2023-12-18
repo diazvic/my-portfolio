@@ -121,7 +121,8 @@ body {
 .caja-test {
 	width: 300px;
 	height: 300px;
-	border: 1px solid black;
+	border: 1px solid #e0e0e0;
+	border-radius: 10px;
 	margin: 20px;
 }
 .caja-test:last-child {
@@ -140,4 +141,5 @@ body {
 }
 .parrafo-proyectos {
 	text-align: center;
+	text-transform: capitalize;
 }
